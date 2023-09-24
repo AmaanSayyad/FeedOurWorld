@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#bg-image {
+	background-image: url('/images/fow.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	width: max-content;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
